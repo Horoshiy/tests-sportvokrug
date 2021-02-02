@@ -15,9 +15,9 @@ public class LoginRegistrationTests extends TestBase {
     @Test
     @DisplayName("login")
     void login() {
-        String url = ConfigHelper.getSiteHomePage();
-        String name = ConfigHelper.getSiteUser();
-        String password = ConfigHelper.getSitePassword();
+        final String url = ConfigHelper.getSiteHomePage();
+        final String name = ConfigHelper.getSiteUser();
+        final String password = ConfigHelper.getSitePassword();
 
         step("open site", () -> {
             open(url);

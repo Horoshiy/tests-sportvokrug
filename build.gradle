@@ -34,12 +34,13 @@ dependencies {
     testImplementation "com.codeborne:selenide:${selenideVersion}"
     testImplementation "io.qameta.allure:allure-selenide:${allureVersion}"
     testImplementation "io.qameta.allure:allure-rest-assured:2.13.8"
-    testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'ch.qos.logback:logback-classic:1.2.3'
-    testImplementation 'org.aeonbits.owner:owner:1.0.12'
+    testImplementation "com.github.javafaker:javafaker:1.0.2"
+    testImplementation "ch.qos.logback:logback-classic:1.2.3"
+    testImplementation "org.aeonbits.owner:owner:1.0.12"
     testImplementation "io.rest-assured:rest-assured:4.3.3"
     testImplementation "com.fasterxml.jackson.core:jackson-databind:2.12.1"
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:${junitVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
 }
 
