@@ -1,0 +1,9 @@
+/.idea/
+/.gradle/
+/gradle/
+/gradlew
+/gradlew.bat
+/src/test/resources/prod.properties
+/build/
+/.allure/
+/allure-results/
